@@ -19,11 +19,24 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Virtual environments
+# Virtual environments (all common names)
 venv/
+venv*/
 ENV/
 env/
+env*/
+.venv/
+.venv*/
+trading_env/
+schwab_env/
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+share/
 
 # IDEs
 .vscode/

@@ -31,14 +31,23 @@ The **Weather/Market Regime Agent** is a non-executing analytical tool that clas
 
 ### Setup
 
+**⚠️ Important: Use a virtual environment!** See [SETUP.md](SETUP.md) for detailed instructions.
+
 1. **Clone or download this repository**
 
-2. **Install dependencies:**
+2. **Create and activate virtual environment:**
+   ```bash
+   cd "c:\Users\Alvee\Desktop\Trading Agent Tools"
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
    - Copy `.env.example` to `.env`
    - Add your Schwab API credentials:
      ```

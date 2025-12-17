@@ -6,6 +6,7 @@ ES/NQ trade nearly 24 hours, but different session phases have different charact
 
 import logging
 from datetime import datetime, time
+from typing import Optional
 from zoneinfo import ZoneInfo
 
 logger = logging.getLogger(__name__)

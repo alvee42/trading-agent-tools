@@ -6,7 +6,7 @@ Provides auto-detection of front month contracts with rollover logic.
 
 import logging
 from datetime import datetime, date, timedelta, timezone
-from typing import Tuple
+from typing import Tuple, Optional
 
 logger = logging.getLogger(__name__)
 
